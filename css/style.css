@@ -37,3 +37,13 @@
 	font-family: regular;
 	src: url(../../assets/fonts/Kumbh_Sans/static/KumbhSans-Regular.ttf);
 }
+
+
+main {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(to bottom, var(--Soft-violet), var(--Soft-blue));
+	margin: -8px;
+}
