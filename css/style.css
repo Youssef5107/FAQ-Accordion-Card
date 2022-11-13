@@ -47,3 +47,21 @@ main {
 	background-image: linear-gradient(to bottom, var(--Soft-violet), var(--Soft-blue));
 	margin: -8px;
 }
+
+.main-area {
+	max-width: 1000px;
+	width: 100%;
+	height: fit-content;
+	background-color: white;
+	display: flex;
+	border-radius: 7px;
+	box-shadow: 12px 7px 20px 6px rgb(57 75 84 / 8%);
+}
+
+.main-content {
+	margin: 50px 30px 20px 100px;
+}
+
+.main-img {
+	margin-left: -30px;
+}
