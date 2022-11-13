@@ -65,3 +65,43 @@ main {
 .main-img {
 	margin-left: -30px;
 }
+
+.arrow-down1,
+.arrow-down2,
+.arrow-down3,
+.arrow-down4,
+.arrow-down5 {
+	margin-left: 40px;
+}
+
+.content1,
+.content2,
+.content3,
+.content4,
+.content5 {
+	display: none;
+	color: var(--Dark-grayish-blue);
+	font-family: light;
+	font-size: 13px;
+	max-width: 305px;
+	width: 100%;
+}
+
+.title1,
+.title2,
+.title3,
+.title4,
+.title5 {
+
+	color: var(--Very-dark-grayish-blue);
+	font-size: 15px;
+	font-family: light;
+	margin-top: 30px;
+}
+
+hr {
+	height: 0.5px;
+	max-width: 350px;
+	width: 100%;
+	margin-top: 20px;
+}
