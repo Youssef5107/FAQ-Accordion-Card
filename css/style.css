@@ -62,6 +62,11 @@ main {
 	margin: 50px 30px 20px 100px;
 }
 
+.main-img-area {
+	display: flex;
+	align-items: center;
+}
+
 .main-img {
 	margin-left: -30px;
 }
@@ -100,7 +105,7 @@ main {
 }
 
 hr {
-	height: 0.5px;
+	height: 0.5 px;
 	max-width: 350px;
 	width: 100%;
 	margin-top: 20px;
