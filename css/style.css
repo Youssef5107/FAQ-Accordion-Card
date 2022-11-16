@@ -72,14 +72,6 @@ main {
 	margin-left: -30px;
 }
 
-.arrow-down1,
-.arrow-down2,
-.arrow-down3,
-.arrow-down4,
-.arrow-down5 {
-	margin-left: 40px;
-}
-
 .content1,
 .content2,
 .content3,
@@ -111,4 +103,24 @@ hr {
 	max-width: 350px;
 	width: 100%;
 	margin-top: 20px;
+}
+
+.arrow-down1 {
+	margin-left: 40px;
+}
+
+.arrow-down2 {
+	margin-left: 40px;
+}
+
+.arrow-down3 {
+	margin-left: 92px;
+}
+
+.arrow-down4 {
+	margin-left: 85px;
+}
+
+.arrow-down5 {
+	margin-left: 50px;
 }
