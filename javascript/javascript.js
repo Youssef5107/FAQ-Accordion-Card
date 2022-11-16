@@ -1,7 +1,8 @@
 function show(divCls) {
+	var arrows = document.querySelectorAll("arrow")
 	var content = document.querySelector("." + divCls);
 	for (i = 0; i < divCls.lenght; i++) {
-		divCls[i].style.display = "none";
+		content.style.display = "none";
 	}
 
 	if (content.style.display == "block") {
@@ -9,6 +10,7 @@ function show(divCls) {
 	}
 	else {
 		content.style.display = "block";
+		arrows.style.transform = "rotate(180deg)";
 	}
 
 

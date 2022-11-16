@@ -84,6 +84,8 @@ main {
 	max-width: 305px;
 	width: 100%;
 	margin-top: 20px;
+	/* animation-name: appearnce;
+	animation-duration: 2s; */
 }
 
 .title1,
@@ -123,4 +125,12 @@ hr {
 
 .arrow-down5 {
 	margin-left: 50px;
+
 }
+
+
+/* @keyframes appearnce {
+	to {
+		transform: translateY(50px);
+	}
+} */
