@@ -88,16 +88,15 @@ main {
 	animation-duration: 2s; */
 }
 
-.title1,
-.title2,
-.title3,
-.title4,
-.title5 {
-
+.title {
 	color: var(--Very-dark-grayish-blue);
 	font-size: 15px;
 	font-family: light;
 	margin-top: 30px;
+}
+
+.title:hover {
+	cursor: pointer;
 }
 
 hr {

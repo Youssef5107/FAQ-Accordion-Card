@@ -1,8 +1,10 @@
-function show(divCls) {
+function show(divCls, clickedItem) {
+
 	var allContents = document.querySelectorAll(".content");
 	for (i = 0; i < allContents.length; i++) {
 		allContents[i].style.display = "none";
 	}
+
 
 	var arrows = document.querySelectorAll(".arrow");
 	var content = document.querySelector("." + divCls);
@@ -13,7 +15,6 @@ function show(divCls) {
 		content.style.display = "block";
 		// arrows.style.transform = "rotate(180deg)";
 	}
-
 
 }
 
