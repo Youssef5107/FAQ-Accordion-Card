@@ -56,11 +56,11 @@ main {
 	display: flex;
 	border-radius: 7px;
 	box-shadow: 12px 7px 20px 6px rgb(57 75 84 / 8%);
-	margin: auto 50px;
+	margin: auto 30px;
 }
 
 .main-content {
-	margin: 50px 30px 20px 100px;
+	margin: 50px 30px 20px 10%;
 	max-width: 300px;
 	width: 100%;
 }
@@ -72,6 +72,12 @@ main {
 
 .main-img {
 	margin-left: -30px;
+}
+
+header {
+	font-weight: bold;
+	font-family: bold;
+	font-size: 35px;
 }
 
 
@@ -126,4 +132,29 @@ hr {
 
 .active .arrow {
 	transform: rotate(180deg);
+}
+
+@media(max-width:900px) {
+	.main-area {
+		justify-content: center;
+		max-width: 500px;
+		width: 100%;
+		flex-wrap: wrap;
+	}
+
+	.main-img {
+		width: 200px;
+		height: 200px;
+		margin-left: 0px;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	.main-content {
+		margin-top: 20px;
+	}
+
+
 }
