@@ -94,6 +94,10 @@ main {
 }
 
 .title:hover {
+	color: orange;
+}
+
+.title:hover {
 	cursor: pointer;
 }
 
@@ -108,6 +112,11 @@ hr {
 .active .content {
 	display: block;
 }
+
+.active .title {
+	font-weight: bold;
+}
+
 
 .active .arrow {
 	transform: rotate(180deg);
