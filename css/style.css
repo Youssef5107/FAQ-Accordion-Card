@@ -84,8 +84,6 @@ main {
 	max-width: 305px;
 	width: 100%;
 	margin-top: 20px;
-	/* animation-name: appearnce;
-	animation-duration: 2s; */
 }
 
 .title {
@@ -100,37 +98,17 @@ main {
 }
 
 hr {
-	height: 0.5 px;
-	max-width: 350px;
-	width: 100%;
 	margin-top: 20px;
 }
 
-.arrow-down1 {
-	margin-left: 40px;
-}
-
-.arrow-down2 {
-	margin-left: 40px;
-}
-
-.arrow-down3 {
-	margin-left: 92px;
-}
-
-.arrow-down4 {
-	margin-left: 85px;
-}
-
-.arrow-down5 {
+.arrow {
 	margin-left: 50px;
-
 }
 
+.active .content {
+	display: block;
+}
 
-
-/* @keyframes appearnce {
-	to {
-		transform: translateY(50px);
-	}
-} */
+.active .arrow {
+	transform: rotate(180deg);
+}
