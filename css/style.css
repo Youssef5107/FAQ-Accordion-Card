@@ -143,9 +143,9 @@ hr {
 	}
 
 	.main-img {
-		width: 200px;
-		height: 200px;
+		height: 195px;
 		margin-left: 0px;
+		margin-top: -95px;
 	}
 
 	header {
