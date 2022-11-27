@@ -54,7 +54,7 @@ main {
 	height: fit-content;
 	background-color: white;
 	display: flex;
-	border-radius: 7px;
+	border-radius: 30px;
 	box-shadow: 12px 7px 20px 6px rgb(57 75 84 / 8%);
 	margin: auto 30px;
 }
@@ -68,10 +68,14 @@ main {
 .main-img-area {
 	display: flex;
 	align-items: center;
+	background-image: url(../images/bg-pattern-desktop.svg);
+	background-position: center right;
 }
 
 .main-img {
 	margin-left: -30px;
+	width: 500px;
+	position: relative;
 }
 
 header {
@@ -142,10 +146,15 @@ hr {
 		flex-wrap: wrap;
 	}
 
+	.main-img-area {
+		background-image: url(../images/bg-pattern-mobile.svg);
+		background-repeat: no-repeat;
+		background-position: center top 35px;
+	}
+
 	.main-img {
 		height: 195px;
-		margin-left: 0px;
-		margin-top: -95px;
+		margin: -95px auto 40px;
 	}
 
 	header {
@@ -153,7 +162,7 @@ hr {
 	}
 
 	.main-content {
-		margin-top: 20px;
+		margin-top: 0px;
 	}
 
 
